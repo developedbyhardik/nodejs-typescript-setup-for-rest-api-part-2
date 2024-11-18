@@ -9,3 +9,10 @@ prisma-format:
 prisma-generate:
 	@echo "Generating prisma..."
 	npx prisma generate
+
+prisma-studio:
+	@echo "Starting prisma studio..."
+	npx prisma studio
+
+
+
